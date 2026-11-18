@@ -1,0 +1,6 @@
+patient_id,status,reason,condition_id,latest_observation_id,latest_a1c_date,latest_a1c_percent,next_due_date,as_of
+demo-exact,due_today,interval_ends_today,dx-exact,a1c-exact,2025-07-05,7.1,2026-01-01,2026-01-01
+demo-missing,no_eligible_result,no_available_qualifying_a1c,dx-missing,,,,,2026-01-01
+demo-overdue,overdue,interval_elapsed,dx-overdue,a1c-overdue,2025-06-05,7.1,2025-12-02,2026-01-01
+demo-pending,no_eligible_result,no_available_qualifying_a1c,dx-pending,,,,,2026-01-01
+demo-recent,up_to_date,within_interval,dx-recent,a1c-recent,2025-12-02,7.1,2026-05-31,2026-01-01
